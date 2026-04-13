@@ -20,19 +20,19 @@ const testimonials: Testimonial[] = [
     name: "Елена",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face",
     messages: [
-      { text: "Доброе утро!\nЭто просто чудо, я в восторге!\nТатуировка получилась\nневероятно красивой!", time: "11:24", isOutgoing: false },
+      { text: "Доброе утро!\nЭто просто чудо, я в восторге!\nКартинка получилась\nневероятно красивой!", time: "11:24", isOutgoing: false },
       { text: "", time: "11:24", isOutgoing: false, image: "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?w=300&h=400&fit=crop" },
       { text: "Вы настоящая волшебница!\nСпасибо вам огромное!", time: "11:25", isOutgoing: false },
       { text: "Очень рада, что\nвам понравилось! ❤️\nЖду вас снова!", time: "11:26", isOutgoing: true },
     ],
-    description: "«Хотела татуировки с цветами и птицами,\nнежные розы и колибри на ветке.\nВы потрясающе воплотили мою мечту в реальность!»",
+    description: "«Хотела картинку с цветами и птицами,\nнежные розы и колибри на ветке.\nВы потрясающе воплотили мою идею в реальность!»",
   },
   {
     id: 2,
     name: "Анна",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face",
     messages: [
-      { text: "Привет! Татуировка зажила\nидеально, как на картинке!", time: "15:30", isOutgoing: false },
+      { text: "Привет! Получилось\nидеально, как я и хотела!", time: "15:30", isOutgoing: false },
       { text: "Все друзья в восторге,\nспрашивают контакты мастера!", time: "15:31", isOutgoing: false },
       { text: "Спасибо за теплые слова! 🌸\nБуду рада видеть вас\nи ваших друзей!", time: "15:35", isOutgoing: true },
     ],
@@ -44,8 +44,8 @@ const testimonials: Testimonial[] = [
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face",
     messages: [
       { text: "Здравствуйте! Хочу сказать\nогромное спасибо за работу!", time: "18:45", isOutgoing: false },
-      { text: "Это моя первая тату и\nвы сделали этот опыт\nнезабываемым!", time: "18:46", isOutgoing: false },
-      { text: "Очень приятно! 💕\nПервая татуировка — это\nособенный момент!", time: "18:50", isOutgoing: true },
+      { text: "Это мой первый заказ и\nвы сделали этот опыт\nнезабываемым!", time: "18:46", isOutgoing: false },
+      { text: "Очень приятно! 💕\nПервый заказ — это\nособенный момент!", time: "18:50", isOutgoing: true },
     ],
     description: "",
   },
@@ -67,7 +67,7 @@ const testimonials: Testimonial[] = [
     avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face",
     messages: [
       { text: "Добрый день! Хотела\nеще раз поблагодарить!", time: "10:20", isOutgoing: false },
-      { text: "Муж в восторге от\nмоей новой тату! 💫", time: "10:21", isOutgoing: false },
+      { text: "Муж в восторге от\nновой картинки! 💫", time: "10:21", isOutgoing: false },
       { text: "Рада, что всем нравится!\nПриходите за следующей 😊", time: "10:25", isOutgoing: true },
     ],
     description: "",
@@ -79,7 +79,7 @@ const testimonials: Testimonial[] = [
     messages: [
       { text: "Это было потрясающе!\nСовсем не больно 🙌", time: "16:40", isOutgoing: false },
       { text: "Боялась ужасно, но вы\nтак поддержали меня!", time: "16:41", isOutgoing: false },
-      { text: "Вы справились отлично! 💪\nТеперь вы в нашей\nтату-семье!", time: "16:45", isOutgoing: true },
+      { text: "Вы справились отлично! 💪\nТеперь вы в числе\nмоих любимых художников!", time: "16:45", isOutgoing: true },
     ],
     description: "",
   },
@@ -89,8 +89,8 @@ const testimonials: Testimonial[] = [
     avatar: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=100&h=100&fit=crop&crop=face",
     messages: [
       { text: "Уже хочу записаться\nна вторую! 🦋", time: "19:15", isOutgoing: false },
-      { text: "Подсела на татуировки\nблагодаря вам!", time: "19:16", isOutgoing: false },
-      { text: "Жду вас! 🖤\nУже думаю над\nэскизом для вас!", time: "19:20", isOutgoing: true },
+      { text: "Подсела на красивые\nкартинки благодаря вам!", time: "19:16", isOutgoing: false },
+      { text: "Жду вас! 🖤\nУже думаю над\nидеей для вас!", time: "19:20", isOutgoing: true },
     ],
     description: "",
   },
@@ -177,7 +177,7 @@ const TestimonialSection = () => {
                       {message.image && (
                         <img
                           src={message.image}
-                          alt="Tattoo"
+                          alt="Image"
                           className="w-full max-w-[180px] rounded-xl mb-1"
                         />
                       )}
