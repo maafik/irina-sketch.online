@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://tattoo-sketch.ru/sitemap.xml
+Sitemap: https://irina-sketch.ru/sitemap.xml
 
 # Popular search engines
 User-agent: Yandex
